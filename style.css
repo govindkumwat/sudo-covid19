@@ -20,6 +20,12 @@
     
   }
 
+.name h3{
+    text-align: center;
+    margin: 20px;
+
+  }
+
 .table{
     font-size: 25px;
 }
