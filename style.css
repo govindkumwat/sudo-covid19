@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+
+
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    color: white;
+   
+    
+  }
+
+
+  .heading {
+
+    text-align: center;
+    margin: 20px;
+    
+  }
+
+  .container{
+    display: flex;
+  }
+
+
+
+
+  .container h3{
+    text-align: center;
+    margin-top: 10vh;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card{
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    color: white;
+  }
+
+  .totalcases{
+    background-color:tomato;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 30vh;
+    width: 40vh;
+  }
+
+  .totalcases label{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .totalcases p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+
+
+  .NewConfirmed{
+    background-color: tomato;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 30vh;
+    width: 40vh;
+  }
+
+  .NewConfirmed label{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .NewConfirmed p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+
+  .NewDeaths{
+    background-color: red;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 30vh;
+    width: 40vh;
+  }
+
+  .NewDeaths label{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .NewDeaths p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .TotalDeaths{
+    background-color: red;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 30vh;
+    width: 40vh;
+  }
+
+  .TotalDeaths label{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .TotalDeaths p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+
+  .NewRecoverd{
+    background-color: green;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 30vh;
+    width: 40vh;
+  }
+
+  .NewRecoverd label{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .NewRecoverd p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+
+
+  .TotalRecoverd{
+    background-color: green;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 30vh;
+    width: 40vh;
+  }
+
+  .TotalRecoverd label{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .TotalRecoverd p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .container {
+      display: inline;
+      justify-content: center;
+      align-items: center;
+     
+    }
+  }
+  
